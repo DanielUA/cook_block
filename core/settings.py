@@ -45,7 +45,7 @@ MY_APPS = [
 
 THIRD_APPS = [
     "mptt",
-    "ckeditor"
+    "ckeditor",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_APPS + MY_APPS
