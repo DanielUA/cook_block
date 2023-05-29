@@ -137,7 +137,7 @@ ol {
 	right: 0;
 	height: 13px;
 	width: 83px;
-	background-image: url(img/line.png);
+	background-image: url(../img/line.png);
 	content: "";
 	margin: 0 auto;
 }
@@ -409,7 +409,7 @@ ol {
 
 .header__menu ul li .children {
 	position: absolute;
-	left: 200px;
+	left: 100px;
 	top: 62px;
 	width: 180px;
 	background: #222222;
@@ -2023,7 +2023,7 @@ ol {
 	position: absolute;
 	left: 0;
 	top: 3px;
-	background-image: url(quote-left.png);
+	background-image: url(../img/categories/single-post/quote-left.png);
 	height: 55px;
 	width: 55px;
 	content: "";
@@ -2574,7 +2574,9 @@ ol {
 /*---------------------
   Contact
 -----------------------*/
-
+.contact_icon {
+	max-width: 5%;
+}
 .contact {
 	padding-top: 0;
 }
