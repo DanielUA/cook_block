@@ -41,6 +41,7 @@ DJANGO_APPS = [
 ]
 MY_APPS = [
     "blog",
+    "contact",
 ]
 
 THIRD_APPS = [
