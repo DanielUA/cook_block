@@ -5,10 +5,6 @@ E
 blog/tests.py,a/d/ad2fa097158bb799ebb227eaa60d28b415e3f7c6
 <
 blog/apps.py,5/1/51955899fc35f65c8f4e3a7b417395ce65636ebd
-O
-templates/blog/post_detail.html,1/7/179319f973dccae3a3aee01374588f2deae6d05d
-M
-templates/blog/post_list.html,6/0/60c8dfe02d57e3195e6bfd49e27d145056615e99
 N
 blog/templatetags/menu_tags.py,5/c/5c760e66c36ef6dcbce2033d7e9f1374a3f82f1b
 \
