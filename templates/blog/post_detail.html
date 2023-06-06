@@ -143,10 +143,9 @@
                             <h4>Leave a 1comment</h4>
                         </div>
                         <form action="{% url "create_comment" pk=post.id %}" method="post">
-                            {% csrf_token %}
+                                                        {% csrf_token %}
                             <div class="input-list">
-                                {{ form }}
-
+                            {{ form }}
                                 {#                                <input type="text" placeholder="Name">#}
                                 {#                                <input type="text" placeholder="Email">#}
                                 {#                                <input type="text" placeholder="Website">#}
