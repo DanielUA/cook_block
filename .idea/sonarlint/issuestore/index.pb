@@ -13,8 +13,6 @@ Y
 )templates/blog/include/tags/top_menu.html,6/9/69cfa87f7e4b633e2627e382aafad5b1612548d2
 @
 requirements.txt,1/9/19359a61ae2446b51b549167b014da2fcf265768
-@
-core/settings.py,5/0/50d2db7959c3140e27b70128db0c86bd7ad43594
 ?
 contact/apps.py,4/7/4774c2fee907e39fe1b1b62143ae2f21498fa6c6
 C
@@ -23,8 +21,6 @@ G
 foodieblog/contact.html,5/a/5ac31fdbdd2dc071babcd63d9d9ab89936c38978
 =
 blog/views.py,e/7/e7a8c955252fc1494be19edcdaa6f927cd79a1a7
-=
-blog/admin.py,9/f/9f9560753a3e5c777e2281279748008e37d22c37
 >
 blog/models.py,9/0/90f4c37dbfd7a96a1fb4496187f7e1fe7d61f3cf
 N
