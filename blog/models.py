@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from ckeditor.fields import RichTextField
 from django.contrib.auth.models import User
 from django.db import models
@@ -54,6 +56,9 @@ class Post(models.Model):
 
     def get_recipes(self):
         return self.recipe.all()
+    
+    def get_comments(self):
+        return self.comment.all()
 
 class Recipe(models.Model):
     name = models.CharField(max_length=100)
@@ -74,6 +79,7 @@ class Recipe(models.Model):
 class Comment(models.Model):
     name = models.CharField(max_length=50)
     email = models.CharField(max_length=100)
-    website = models.CharField(max_length=100)
+    website = models.CharField(max_length=100, blank=True, null=True)
     massage = models.TextField(max_length=500)
+    create_at = models.DateTimeField(default=datetime.now)
     post = models.ForeignKey(Post, related_name="comment", on_delete=models.CASCADE)
